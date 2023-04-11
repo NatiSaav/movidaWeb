@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Home | Movida Experience</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Movida Experience Web">
+		<meta name="keywords" content="clases, español, ingles">
+		<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/script.js"> </script>
+        <script src="https://kit.fontawesome.com/83ac23d6d3.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar container">
+                <picture class="navbar__logo">
+                    <a class="navbar__link" href="../index.html"><img src="../img/logosinfondo.png" alt="Logo Movida"></a>
+                </picture>
+                    <ul class="navbar__menu">
+                        <li class="navbar__item"><a href="who.html">Quienes somos</a></li>
+                        <li class="navbar__item"><a href="clases.html">Nuestras clases</a></li>
+                        <li class="navbar__item"><a href="activities.html">Actividades</a></li>
+                        <li class="navbar__item"><a href="contact.html">Contacto</a></li>
+                    </ul>
+            </nav>
+        </header>
+
+        <main class="form">
+            <h2 class="tituloContacto">CONTACTANOS PARA RECIBIR MAS INFORMACIÓN<br>sobre nuestras clases y actividades</h2>
+                <article class="formularioContacto">
+                    <form> 
+                        <label for="nombre">Nombre:</label>
+                        <input type="text"  name="nombre"><br>
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel"  name="telefono"><br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email"><br>
+                        <label for="actividad">Actividad que te gustaria realizar:</label>
+                        <textarea id="acti" name="actividad"></textarea><br>
+                        <label for="mensaje">Dejanos tu mensaje:</label>
+                        <textarea id="mensa" name="mensaje"></textarea><br>
+                        <input  class= "botonEnviarConta" type="submit" value="Enviar"><!--BOTON ENVIAR-->
+       
+                    </form>
+                </article>
+        </main>
+
+        <footer class="footer">
+            <section>
+                <nav class="navbar container">
+                    <picture class="navbar__logo2">
+                        <a href="../index.html"><img src="../img/logosinfondo2.png" alt="Logo Movida"></a>
+                    </picture> 
+                    <h3 class="navbar__title">Seguinos en nuestras redes...</h3>
+                    <ul class="navbar__menu">
+                        <li class="navbar__icon">
+                            <a href="https://www.facebook.com/Movidaexperiencemadrid" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        </li>
+                        <li class="navbar__icon">
+                            <a href="https://www.instagram.com/experiencelamovida/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                        </li>
+                        <li class="navbar__icon">
+                            <a href="https://www.tiktok.com/@experiencelamovida" target="_blank"><i class="fa-brands fa-tiktok fa-xl"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <small class="footer__copy">All rights reserved 2023 - Movida Experience &copy</small>
+        </footer>
+
+
+    </body>
+
+</html>

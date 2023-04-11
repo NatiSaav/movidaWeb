@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation:wght@400;500&family=Quicksand:wght@300;400;500&display=swap');
+
+
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Quicksand', sans-serif;*/
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 62.5%;
+    color: black;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h3{
+   font-size: 32px; 
+   font-family: 'Edu NSW ACT Foundation', cursive, sans-serif;
+   font-weight: 100;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: inherit;
+    color: inherit;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header { 
+    font-family:'Quicksand', sans-serif;
+    background-color: #bedbbb;
+    padding: 36px;
+    background: linear-gradient(to right,  #ffdca9, 20%, #bedbbb);
+}
+
+p { 
+    font-size: 35px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    max-width: 300px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.navbar__item {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: background .3s ease-in-out;
+    position: relative;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #f5e8c7 ;
+}
+
+.navbar__item:hover {
+    background-color: #f5e8c7;
+}
+
+.content {
+    background-image: url(../img/A62A0016.jpg);
+    padding: 128px;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 900px;
+}
+
+.content__title {
+    text-align: center;
+    padding: 20px;
+}
+
+.content__text {
+    text-align: center;
+    padding: 20px;
+}
+
+.content1 {
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+.content1__text{
+    text-align: center;
+    padding: 20px;
+}
+
+.boton{
+    display: grid;
+    font-family: 'quicksand', sans-serif;
+    background-color: #bedbbb;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 25px;
+    transition: background .3s ease-in-out;
+    border: 1px solid #f5e8c7;
+    border-radius: 20px;
+}
+
+.boton:hover {
+    background-color: #f5e8c7;
+}
+
+.who {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 25px;
+}
+
+.who__text {
+    padding: 30px;
+}
+
+.who__img {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+}
+
+.act{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 25px;
+}
+
+.act__text {
+    padding: 30px;
+}
+
+.act__img {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+}
+
+.clases {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 25px;
+}
+
+.clases__text {
+    padding: 30px;
+}
+
+.clases__img {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #ffdca9;
+    display: grid;
+    font-family:'Quicksand', sans-serif;
+    padding: 36px;
+    background: linear-gradient(to left, #bedbbb, 20%, #ffdca9);
+}
+
+.navbar__icon {
+    color: black;
+    margin: 20px;
+    
+}
+
+.footer__copy{
+    padding-top: 24px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+.form{
+    padding: 40px;
+}
+
+.tituloContacto h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+  
+.formularioContacto {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#f5e8c7;
+    border: 1px solid grey;
+    border-radius: 15px;
+    font-size: 24px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+  
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.botonEnviarConta {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    color: black;
+    background-color: #bedbbb;
+    border: 2px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'quicksand', sans-serif;
+    font-weight: bold;
+    transition: background .3s ease-in-out;
+}
+  
+.botonEnviarConta:hover {
+    background-color:  #ffdca9;
+}
+
